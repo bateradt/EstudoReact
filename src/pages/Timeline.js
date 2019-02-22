@@ -76,7 +76,8 @@ export default class Timeline extends Component {
            placeholder="O que está acontecendo?"
         />   
       <button type="button" onClick={this.handleTweetar} > 
-            Tweetar                   
+            Tweetar
+                               
         </button>  
       </form>
       <ul className="tweet-list">
